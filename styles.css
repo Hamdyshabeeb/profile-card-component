@@ -1,0 +1,35 @@
+:root {
+    /* body at least fullscreen height */
+    height: 100vh;
+    /* Layout variables*/
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+    /*color variables*/
+    --page-background: hsl(185, 75%, 39%);
+    --font-first: hsl(229, 23%, 23%);
+    --font-second: hsl(227, 10%, 46%);
+    --font-third: hsl(0, 0%, 59%);
+    /*font smothing to macosx*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    line-height: 1.2;
+    /* body at least fullscreen height */
+    min-height: 100%;
+    margin: 0;
+}
+img{
+    display: block;
+}
+h3{
+    margin: 0;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
