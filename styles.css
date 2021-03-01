@@ -21,15 +21,28 @@ body {
     /* body at least fullscreen height */
     min-height: 100%;
     margin: 0;
+    /*center the card on page*/
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /****padding to mobile*/
+    padding: 0 25px;
 }
-img{
+
+img {
     display: block;
 }
-h3{
+
+h3 {
     margin: 0;
 }
-ul,li{
+
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
+/* styles to card */
