@@ -107,6 +107,7 @@ li {
 
 .card-person-location {
     flex-basis: 100%;
+
 }
 
 .card-statistic {
@@ -115,13 +116,17 @@ li {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     justify-content: space-around;
     align-items: center;
+
 }
 
 .card-statistic li {
 
     display: flex;
-    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    flex-grow: 1;
 }
 .card-statistic h3,.card-person-location,.card-person-age{
     font-size: 1rem;
@@ -137,4 +142,6 @@ li {
 
 .card-statistic h3{
     order: 2;
+    flex-basis: 100%;
+
 }
